@@ -1,6 +1,7 @@
 import requests, os
 from datetime import datetime
 
+#keys are stored locally for anonimity
 APP_ID = os.environ['APP_ID']
 API_KEY = os.environ['API_KEY']
 SHEETY_API_KEY = os.environ['SHEETY_API_KEY']
