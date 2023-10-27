@@ -2,12 +2,13 @@ import requests, os
 from datetime import datetime
 
 #keys are stored locally for anonimity
+
 APP_ID = os.environ['APP_ID']
 API_KEY = os.environ['API_KEY']
 SHEETY_API_KEY = os.environ['SHEETY_API_KEY']
 
 EXERCISE_ENDPOINT = "https://trackapi.nutritionix.com/v2/natural/exercise"
-
+#used for authorization
 headers = {
     "x-app-id": APP_ID,
     "x-app-key": API_KEY,
